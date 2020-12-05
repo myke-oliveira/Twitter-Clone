@@ -10,3 +10,9 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
+
+header#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
