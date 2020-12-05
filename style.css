@@ -26,6 +26,8 @@ header#main-header {
   height: 46px;
   background: #FFF;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+  position: relative;
+  z-index: 1;
 }
 
 header#main-header .content {
@@ -91,5 +93,16 @@ header#main-header div.side input {
   color: #667581;
   font-size: 12px;
   background : #F5F8FA url('/images/search.svg') no-repeat 190px center;
+}
 
+div.banner {
+  height: 380px;
+  width: 100%;
+  background: #3BB9E3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFF;
 }
